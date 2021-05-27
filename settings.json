@@ -1,0 +1,144 @@
+{
+    "editor.fontFamily": "Iosevka",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "editor.snippetSuggestions": "top",
+    "editor.tokenColorCustomizations": {
+        "comments": "#F7EBC3"
+    },
+    // "editor."
+    "files.exclude": {
+        "**/tmp/**": true,
+        "**/dist/**": false,
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/cjs/**": true,
+        "**/*.min.js": true,
+        "**/__pycache__/**": true,
+        "**/vendors/**": true,
+    },
+    "files.watcherExclude": {
+        "**/tmp/**": true,
+        "**/dist/**": true,
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/cjs/**": true,
+        "**/*.min.js": true,
+        "**/__pycache__/**": true,
+        "**/vendors/**": true,
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "editor.renderWhitespace": "all",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#222",
+        "editor.selectionBackground": "#006a76",
+        "editor.selectionHighlightBackground": "#455b5b67"
+    },
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxBracketSameLine": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSpacing": true,
+    "prettier.printWidth": 120,
+    "prettier.jsxSingleQuote": true,
+    "editor.smoothScrolling": true,
+    "files.associations": {
+        "*.ejs": "javascriptreact",
+        "*.jinja": "jinja",
+        "Vagrantfile": "ruby"
+    },
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": true,
+    "editor.hover.sticky": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.sideBar.location": "right",
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Tinacious Design (High Contrast)",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "editor.glyphMargin": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "editor.cursorStyle": "block"
+}

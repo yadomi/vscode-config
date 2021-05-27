@@ -1,0 +1,86 @@
+[
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "cursorBottomSelect"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+k cmd+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-cursorWordStartLeftSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-cursorWordEndRightSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "shift+k shift+left",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "shift+k shift+right",
+    "command": "workbench.action.splitEditorRight"
+  }
+]
