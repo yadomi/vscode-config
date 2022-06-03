@@ -1,6 +1,5 @@
 {
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 1,
   "workbench.statusBar.visible": false,
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -77,46 +76,17 @@
   "explorer.confirmDelete": false,
   "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.menus": {
-    "editor": {
-      "blame": false,
-      "clipboard": true,
-      "compare": true,
-      "history": false,
-      "remote": false
-    },
+    "editor": false,
     "editorGroup": false,
-    "editorTab": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "explorer": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "scm": {
-      "authors": true
-    },
-    "scmGroupInline": {
-      "stash": true
-    },
-    "scmGroup": {
-      "compare": true,
-      "openClose": true,
-      "stash": true
-    },
-    "scmItem": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": false,
-      "stash": true
-    }
+    "editorTab": false,
+    "explorer": false,
+    "scm": false,
+    "scmGroupInline": false,
+    "scmGroup": false,
+    "scmItem": false
   },
   "redhat.telemetry.enabled": false,
   "svelte.enable-ts-plugin": true,
@@ -148,5 +118,6 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode",
     "editor.formatOnSave": true
-  }
+  },
+  "window.zoomLevel": 1
 }
