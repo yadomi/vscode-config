@@ -68,19 +68,11 @@
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
   {
-    "key": "cmd+n",
-    "command": "explorer.newFile"
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.navigateRight"
   },
   {
-    "key": "cmd+n",
-    "command": "-workbench.action.files.newUntitledFile"
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.navigateLeft"
   },
-  {
-    "key": "shift+k shift+left",
-    "command": "workbench.action.splitEditorLeft"
-  },
-  {
-    "key": "shift+k shift+right",
-    "command": "workbench.action.splitEditorRight"
-  }
 ]

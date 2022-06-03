@@ -8,9 +8,8 @@
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "editor.snippetSuggestions": "top",
     "editor.tokenColorCustomizations": {
-        "comments": "#F7EBC3"
+        "comments": "#F7EBC3",
     },
-    // "editor."
     "files.exclude": {
         "**/tmp/**": true,
         "**/dist/**": false,
@@ -46,8 +45,12 @@
         120
     ],
     "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
     "[javascript]": {
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
@@ -55,9 +58,16 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[scss]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "prettier.jsxBracketSameLine": true,
@@ -75,27 +85,16 @@
     "workbench.startupEditor": "newUntitledFile",
     "breadcrumbs.enabled": true,
     "editor.hover.sticky": true,
-    "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.sideBar.location": "right",
     "workbench.settings.editor": "json",
-    "workbench.colorTheme": "Tinacious Design (High Contrast)",
+    "workbench.colorTheme": "Amethyst Dark",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.scrollToSwitchTabs": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": 1,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
     "editor.formatOnSaveMode": "modifications",
     "editor.glyphMargin": false,
     "workbench.editor.untitled.hint": "hidden",
@@ -140,5 +139,13 @@
             "stash": true
         }
     },
-    "editor.cursorStyle": "block"
+    "editor.cursorStyle": "block",
+    "redhat.telemetry.enabled": false,
+    "svelte.enable-ts-plugin": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode",
+        "editor.formatOnSave": true,
+    },
+    "window.zoomLevel": 1,
+    "extensions.ignoreRecommendations": true,
 }
